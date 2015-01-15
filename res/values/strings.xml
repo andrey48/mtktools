@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTK Tools</string>
+    <string name="epo_url">http://epodownload.mediatek.com</string>
+    <string name="notification_light_pulse">Notification light pulse</string>
+    <string name="epo_download">Update EPO</string>
+    <string name="epo_title">EPO URL:</string>
+    <string name="tab1_title">Settings</string>
+    <string name="tab2_title">EPO</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+</resources>

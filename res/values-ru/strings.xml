@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MTK Tools</string>
+    <string name="epo_download">Обновить EPO</string>
+    <string name="notification_light_pulse">Индикация уведомлений</string>
+    <string name="tab1_title">Настройки</string>
+    <string name="on">ВКЛ</string>
+    <string name="off">ВЫКЛ</string>
+</resources>
