@@ -1,0 +1,10 @@
+.idea
+bin
+gen
+build.xml
+local.properties
+*.apk
+*.ap_
+*.dex
+*.class
+*.log
