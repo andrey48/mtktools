@@ -58,6 +58,12 @@
                             android:text="@string/epo_download"
                             android:id="@+id/btnUpdateEPO" android:layout_gravity="center_horizontal"
                             android:onClick="onButtonClick"/>
+                    <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Clear"
+                            android:id="@+id/btnClear" android:layout_gravity="center_horizontal"
+                            android:onClick="onButtonClick1"/>
                 </LinearLayout>
             </FrameLayout>
         </LinearLayout>
