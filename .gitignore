@@ -3,6 +3,7 @@ bin
 gen
 build.xml
 local.properties
+proguard-project.txt
 *.apk
 *.ap_
 *.dex

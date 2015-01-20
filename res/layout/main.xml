@@ -4,69 +4,31 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <TabHost
+    <Switch
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent" android:id="@+id/tabHost">
-        <LinearLayout
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:orientation="vertical">
-            <TabWidget
-                    android:id="@android:id/tabs"
-                    android:layout_width="fill_parent"
-                    android:layout_height="wrap_content" android:tabStripEnabled="false">
-            </TabWidget>
-            <FrameLayout
-                    android:id="@android:id/tabcontent"
-                    android:layout_width="fill_parent"
-                    android:layout_height="fill_parent">
-                <LinearLayout
-                        android:id="@+id/linearLayout"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:orientation="vertical">
-                    <Switch
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:text="@string/notification_light_pulse"
-                            android:id="@+id/swNotificationLight" android:onClick="onSwitchClick" android:checked="false"/>
-                </LinearLayout>
-                <LinearLayout
-                        android:id="@+id/linearLayout2"
-                        android:layout_width="fill_parent"
-                        android:layout_height="fill_parent"
-                        android:orientation="vertical">
-                    <TextView
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:textAppearance="?android:attr/textAppearanceMedium"
-                            android:text="@string/epo_title"
-                            android:id="@+id/txtEPO"
-                            android:focusableInTouchMode="true"/>
-                    <EditText
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/etEPO" android:text="@string/epo_url" android:inputType="textUri"/>
-                    <ProgressBar
-                            style="?android:attr/progressBarStyleHorizontal"
-                            android:layout_width="fill_parent"
-                            android:layout_height="wrap_content"
-                            android:id="@+id/pbEPO"/>
-                    <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="@string/epo_download"
-                            android:id="@+id/btnUpdateEPO" android:layout_gravity="center_horizontal"
-                            android:onClick="onButtonClick"/>
-                    <Button
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Clear"
-                            android:id="@+id/btnClear" android:layout_gravity="center_horizontal"
-                            android:onClick="onButtonClick1"/>
-                </LinearLayout>
-            </FrameLayout>
-        </LinearLayout>
-    </TabHost>
+            android:layout_height="wrap_content"
+            android:text="@string/notification_light_pulse"
+            android:id="@+id/swNotificationLight" android:onClick="onSwitchClick" android:checked="false"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/epo_title"
+            android:id="@+id/txtEPO"
+            android:focusableInTouchMode="true" android:singleLine="true"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEPO" android:text="@string/epo_url" android:inputType="textUri"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pbEPO"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/epo_download"
+            android:id="@+id/btnUpdateEPO" android:layout_gravity="center_horizontal"
+            android:onClick="onButtonClick"/>
 </LinearLayout>
 
