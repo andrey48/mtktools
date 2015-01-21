@@ -3,32 +3,34 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-        >
+              android:divider="?android:listDivider" android:showDividers="middle">
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/settings"
+            android:id="@+id/textView" style="?android:attr/listSeparatorTextViewStyle"/>
     <Switch
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/notification_light_pulse"
             android:id="@+id/swNotificationLight" android:onClick="onSwitchClick" android:checked="false"/>
-    <TextView
+    <TextView style="?android:attr/listSeparatorTextViewStyle" android:layout_width="fill_parent"
+              android:layout_height="wrap_content" android:text="@string/gps" android:id="@+id/textView2"
+              android:singleLine="false"/>
+    <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/epo_title"
-            android:id="@+id/txtEPO"
-            android:focusableInTouchMode="true" android:singleLine="true"/>
-    <EditText
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
             android:id="@+id/etEPO" android:text="@string/epo_url" android:inputType="textUri"/>
-    <ProgressBar
-            style="?android:attr/progressBarStyleHorizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/pbEPO"/>
     <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/epo_download"
             android:id="@+id/btnUpdateEPO" android:layout_gravity="center_horizontal"
             android:onClick="onButtonClick"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/delete_mktgps"
+            android:id="@+id/btnDelMtkGps" android:layout_gravity="center_horizontal" android:onClick="onButtonClick"/>
 </LinearLayout>
 

@@ -10,4 +10,13 @@
     <string name="on">ON</string>
     <string name="off">OFF</string>
     <string name="download_msg">Downloading</string>
+    <string name="download_complete">Download complete</string>
+    <string name="epo_updated">EPO data updated</string>
+    <string name="settings">Settings</string>
+    <string name="gps">GPS</string>
+    <string name="delete_mktgps">Delete mtkgps.dat</string>
+    <string name="misc_path">/data/misc</string>
+    <string name="file_deleted">File deleted</string>
+    <string name="no_internet_connection">No Internet connection</string>
+    <string name="download_error">Download error</string>
 </resources>

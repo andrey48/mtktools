@@ -6,4 +6,11 @@
     <string name="on">ВКЛ</string>
     <string name="off">ВЫКЛ</string>
     <string name="download_msg">Загрузка</string>
+    <string name="download_complete">Загрузка завершена</string>
+    <string name="epo_updated">Данные EPO обновлены</string>
+    <string name="settings">Настройки</string>
+    <string name="delete_mktgps">Удалить mtkgps.dat</string>
+    <string name="file_deleted">Файл удален</string>
+    <string name="no_internet_connection">Отсутствует подключение к сети Интернет</string>
+    <string name="download_error">Ошибка загрузки</string>
 </resources>
